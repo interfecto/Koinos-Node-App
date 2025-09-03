@@ -1,32 +1,28 @@
 # Release Files
 
-This directory contains pre-built release files for the Koinos Desktop Node application.
+This directory is prepared for future pre-built release files for the Koinos Desktop Node application.
 
-## Current Releases
+## Current Status
 
-### v0.4.0 (Beta)
+**Pre-built releases are temporarily unavailable.** Please use the development installation method from the main README.
 
-- **macOS ARM64**: `koinos-node-app_0.4.0_aarch64.zip` (contains DMG)
-  - Compatible with Apple Silicon Macs (M1, M2, M3, etc.)
-  - Size: ~50MB
-  - Requires macOS 10.15+ (Catalina or later)
-  - **Note**: DMG is packaged in ZIP to prevent GitHub download corruption
+### Planned Releases
 
-## Installation Instructions
+- **macOS ARM64**: For Apple Silicon Macs (M1, M2, M3, etc.)
+- **macOS Intel**: For Intel-based Macs
+- **Windows x64**: For Windows 10/11
+- **Linux x64**: For Ubuntu/Debian-based systems
 
-### macOS
+## Installation
 
-1. Download the ZIP file for your system
-2. Double-click the ZIP file to extract the DMG
-3. Double-click the extracted DMG file to mount it
-4. Drag the Koinos Node application to your Applications folder
-5. Launch the application from Applications or using Spotlight
+For now, please use the development installation method described in the main README:
 
-### Why ZIP instead of DMG?
-
-**Problem**: DMG files often get corrupted when downloaded directly from GitHub.
-
-**Solution**: We package the DMG in a ZIP file to prevent corruption during download. This is a common workaround for GitHub's binary file handling issues.
+```bash
+git clone https://github.com/interfecto/Koinos-Node-App.git
+cd Koinos-Node-App
+npm install
+npm run tauri dev
+```
 
 ### System Requirements
 
