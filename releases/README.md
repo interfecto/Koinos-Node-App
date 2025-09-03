@@ -16,9 +16,21 @@ This directory contains pre-built release files for the Koinos Desktop Node appl
 ### macOS
 
 1. Download the appropriate DMG file for your system
+   - **Recommended**: Right-click the download link and select "Save link as" for direct download
+   - **Alternative**: Use the development build method if DMG download fails
 2. Double-click the DMG file to mount it
 3. Drag the Koinos Node application to your Applications folder
 4. Launch the application from Applications or using Spotlight
+
+### Troubleshooting DMG Downloads
+
+**Problem**: DMG file appears "damaged" or won't open after downloading from GitHub.
+
+**Solution**: This is a known GitHub issue where DMG files get corrupted during download. Try:
+- Right-click the download link and select "Save link as"
+- Download again (sometimes works on retry)
+- Use the development build method instead
+- Check file size matches the expected size
 
 ### System Requirements
 

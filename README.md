@@ -62,7 +62,9 @@ For macOS users, you can download the pre-built application:
 
 **[Download Koinos Node Desktop v0.4.0 (macOS ARM64)](releases/koinos-node-app_0.4.0_aarch64.dmg)**
 
-1. Download the DMG file
+> **Note**: If the DMG appears "damaged" after downloading from GitHub, this is a known issue. GitHub sometimes corrupts DMG files during download. Try downloading again or use the development build method below.
+
+1. Download the DMG file (right-click → "Save link as" for direct download)
 2. Double-click to mount the disk image
 3. Drag the application to your Applications folder
 4. Launch from Applications or Spotlight
