@@ -28,14 +28,12 @@ Koinos Desktop Node is a cross-platform desktop application that makes running a
 ### Screenshots
 
 <div align="center">
-  <img src="docs/screenshots/dashboard-main.jpg" alt="Koinos Desktop Node Dashboard - Main View" width="800"/>
+  <img src="docs/screenshots/dashboard-main.png" alt="Koinos Desktop Node Dashboard - Main View" width="800"/>
   <p><em>Koinos Desktop Node v0.4.0 - Main dashboard with node controls and status monitoring</em></p>
   
-  <img src="docs/screenshots/dashboard-secondary.jpg" alt="Koinos Desktop Node Dashboard - Secondary View" width="800"/>
+  <img src="docs/screenshots/dashboard-secondary.png" alt="Koinos Desktop Node Dashboard - Secondary View" width="800"/>
   <p><em>Koinos Desktop Node v0.4.0 - Additional dashboard panels and system resources</em></p>
 </div>
-
-> **Note**: Screenshots will be added to `docs/screenshots/` directory. Please add your dashboard screenshots as `dashboard-main.jpg` and `dashboard-secondary.jpg` to see them displayed here.
 
 ## Features
 
