@@ -14,18 +14,11 @@
   
 </div>
 
-> ⚠️ **BETA SOFTWARE WARNING** ⚠️
+> ⚠️ **BETA SOFTWARE - DYOR** ⚠️
 > 
-> This software is currently in **BETA** and should be used at your own risk. While we strive for stability, this version may contain bugs, incomplete features, or unexpected behavior. 
+> This is **BETA software**. Use at your own risk. **Do your own research** before running a node. 
 > 
-> **Use at your own risk** - The developers and contributors are not responsible for any data loss, system instability, or other issues that may arise from using this software.
-> 
-> We recommend:
-> - Testing on non-production systems first
-> - Keeping backups of important data
-> - Reporting any issues you encounter
-> 
-> For production use, please wait for the stable release.
+> Not financial advice. Not responsible for any losses or damages. Test thoroughly before mainnet use.
 
 
 ## Overview
