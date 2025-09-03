@@ -16,9 +16,9 @@
 
 > ⚠️ **BETA SOFTWARE - DYOR** ⚠️
 > 
-> This is **BETA software**. Use at your own risk. **Do your own research** before running a node. 
+> This is **BETA software** running on mainnet. Use at your own risk. **Do your own research** before running a node. 
 > 
-> Not financial advice. Not responsible for any losses or damages. Test thoroughly before mainnet use.
+> Not financial advice. Not responsible for any losses or damages. No warranty provided.
 
 
 ## Overview
