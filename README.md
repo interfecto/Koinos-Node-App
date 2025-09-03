@@ -35,6 +35,8 @@ Koinos Desktop Node is a cross-platform desktop application that makes running a
   <p><em>Koinos Desktop Node v0.4.0 - Additional dashboard panels and system resources</em></p>
 </div>
 
+> **Note**: Screenshots will be added to `docs/screenshots/` directory. Please add your dashboard screenshots as `dashboard-main.jpg` and `dashboard-secondary.jpg` to see them displayed here.
+
 ## Features
 
 - 🚀 **One-Click Setup** - Automatic installation of dependencies and blockchain snapshot
