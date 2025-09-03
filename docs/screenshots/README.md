@@ -13,7 +13,8 @@ To add a new screenshot:
 
 ## Current Screenshots
 
-- `dashboard.png` - Main application dashboard showing the node status, controls, and monitoring panels
+- `dashboard-main.jpg` - Main application dashboard showing the node status, controls, and monitoring panels
+- `dashboard-secondary.jpg` - Secondary dashboard view with additional panels and system resource monitoring
 
 ## Image Guidelines
 

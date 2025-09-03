@@ -18,11 +18,14 @@
 
 Koinos Desktop Node is a cross-platform desktop application that makes running a Koinos blockchain node as simple as clicking a button. Built with Tauri (Rust + TypeScript), it provides a beautiful native interface while managing Docker containers, blockchain synchronization, and node operations behind the scenes.
 
-### Screenshot
+### Screenshots
 
 <div align="center">
-  <img src="docs/screenshots/dashboard.png" alt="Koinos Desktop Node Dashboard" width="800"/>
-  <p><em>Koinos Desktop Node v0.4.0 - Modern dashboard with real-time monitoring</em></p>
+  <img src="docs/screenshots/dashboard-main.jpg" alt="Koinos Desktop Node Dashboard - Main View" width="800"/>
+  <p><em>Koinos Desktop Node v0.4.0 - Main dashboard with node controls and status monitoring</em></p>
+  
+  <img src="docs/screenshots/dashboard-secondary.jpg" alt="Koinos Desktop Node Dashboard - Secondary View" width="800"/>
+  <p><em>Koinos Desktop Node v0.4.0 - Additional dashboard panels and system resources</em></p>
 </div>
 
 ## Features
