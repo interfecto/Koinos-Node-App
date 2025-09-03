@@ -1,38 +1,38 @@
 # Release Files
 
-This directory contains pre-built release files for the Koinos Desktop Node application.
+This directory is prepared for future pre-built release files for the Koinos Desktop Node application.
 
-## Current Releases
+## Current Status
 
-### v0.4.0 (Beta)
+**Pre-built binaries are not currently available.** Users need to compile the application themselves.
 
-- **macOS ARM64**: `koinos-node-app_0.4.0_aarch64.dmg.zip` (contains DMG)
-  - Compatible with Apple Silicon Macs (M1, M2, M3, etc.)
-  - Size: ~50MB
-  - Requires macOS 10.15+ (Catalina or later)
-  - **Note**: DMG is packaged in ZIP to prevent GitHub download corruption
+Please use the development installation method from the main README to build and run the application.
 
-### Planned Releases
+### Future Releases
 
+Pre-built binaries will be available for:
+- **macOS ARM64**: For Apple Silicon Macs (M1, M2, M3, etc.)
 - **macOS Intel**: For Intel-based Macs
 - **Windows x64**: For Windows 10/11
 - **Linux x64**: For Ubuntu/Debian-based systems
 
-## Installation Instructions
+## Compilation Instructions
 
-### macOS
+Since pre-built binaries are not available, please compile the application yourself:
 
-1. Download the ZIP file for your system
-2. Double-click the ZIP file to extract the DMG
-3. Double-click the extracted DMG file to mount it
-4. Drag the Koinos Node application to your Applications folder
-5. Launch the application from Applications or using Spotlight
+```bash
+# Clone the repository
+git clone https://github.com/interfecto/Koinos-Node-App.git
+cd Koinos-Node-App
 
-### Why ZIP instead of DMG?
+# Install dependencies
+npm install
 
-**Problem**: DMG files often get corrupted when downloaded directly from GitHub.
+# Build the application
+npm run tauri build
 
-**Solution**: We package the DMG in a ZIP file to prevent corruption during download. This is a common workaround for GitHub's binary file handling issues.
+# The built application will be in src-tauri/target/release/bundle/
+```
 
 ### System Requirements
 
