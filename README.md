@@ -56,6 +56,22 @@ Koinos Desktop Node is a cross-platform desktop application that makes running a
 
 ### Installation
 
+#### Quick Install (macOS)
+
+For macOS users, you can download the pre-built application:
+
+**[Download Koinos Node Desktop v0.4.0 (macOS ARM64)](releases/koinos-node-app_0.4.0_aarch64.dmg.zip)**
+
+> **Note**: The DMG is packaged in a ZIP file to avoid GitHub download corruption issues. Extract the ZIP first, then mount the DMG.
+
+1. Download the ZIP file
+2. Double-click to extract the DMG file
+3. Double-click the DMG to mount the disk image
+4. Drag the application to your Applications folder
+5. Launch from Applications or Spotlight
+
+#### Development Installation
+
 ```bash
 # Clone the repository
 git clone https://github.com/interfecto/Koinos-Node-App.git
