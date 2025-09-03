@@ -14,6 +14,20 @@
   
 </div>
 
+> ⚠️ **BETA SOFTWARE WARNING** ⚠️
+> 
+> This software is currently in **BETA** and should be used at your own risk. While we strive for stability, this version may contain bugs, incomplete features, or unexpected behavior. 
+> 
+> **Use at your own risk** - The developers and contributors are not responsible for any data loss, system instability, or other issues that may arise from using this software.
+> 
+> We recommend:
+> - Testing on non-production systems first
+> - Keeping backups of important data
+> - Reporting any issues you encounter
+> 
+> For production use, please wait for the stable release.
+
+
 ## Overview
 
 Koinos Desktop Node is a cross-platform desktop application that makes running a Koinos blockchain node as simple as clicking a button. Built with Tauri (Rust + TypeScript), it provides a beautiful native interface while managing Docker containers, blockchain synchronization, and node operations behind the scenes.
@@ -49,10 +63,23 @@ Koinos Desktop Node is a cross-platform desktop application that makes running a
 
 ### Installation
 
+#### Quick Install (macOS)
+
+For macOS users, you can download the pre-built application:
+
+**[Download Koinos Node Desktop v0.4.0 (macOS ARM64)](releases/koinos-node-app_0.4.0_aarch64.dmg)**
+
+1. Download the DMG file
+2. Double-click to mount the disk image
+3. Drag the application to your Applications folder
+4. Launch from Applications or Spotlight
+
+#### Development Installation
+
 ```bash
 # Clone the repository
-git clone https://github.com/koinos/koinos-desktop-node.git
-cd koinos-desktop-node/koinos-node-app
+git clone https://github.com/interfecto/Koinos-Node-App.git
+cd Koinos-Node-App
 
 # Install dependencies
 npm install

@@ -356,18 +356,21 @@ impl NodeManager {
     // Resolve a working docker binary path (handles PATH issues on macOS)
     fn find_docker_path(&self) -> Option<String> {
         let candidates = vec![
-            "docker",
-            "/opt/homebrew/bin/docker",
             "/usr/local/bin/docker",
+            "/opt/homebrew/bin/docker",
+            "/Applications/Docker.app/Contents/Resources/bin/docker",
             "/usr/bin/docker",
+            "docker",
         ];
         for c in candidates {
             if let Ok(output) = Command::new(c).arg("--version").output() {
                 if output.status.success() {
+                    log_debug(&format!("Found Docker at: {}", c), None);
                     return Some(c.to_string());
                 }
             }
         }
+        log_error("Docker not found in any known location", None);
         None
     }
 
@@ -949,6 +952,8 @@ impl NodeManager {
 
     pub async fn get_node_status(&self) -> NodeStatus {
         let mut status = self.status.lock().unwrap().clone();
+        
+        log_debug("Getting node status...", None);
         
         // Check if containers are actually running
         if status.status != "stopped" {
